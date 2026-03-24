@@ -56,6 +56,6 @@ export async function POST(req) {
   // Parse the JSON response from the OpenAI API
   const flashcards = JSON.parse(completion.choices[0].message.content);
 
-  // Return the flashcards as a JSON response
+  //  Return the flashcards as a JSON response
   return NextResponse.json(flashcards.flashcards);
 }
