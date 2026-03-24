@@ -32,7 +32,7 @@ export default function LearnMore() {
                 How to Generate Flashcards
               </Typography>
               <Typography variant="body1">
-                Generating flashcards is simple! Just enter the content you want to study, and our system will create flashcards based on your input. You can use various prompts to guide the generation process.
+                Generating flashcards is simple Just enter the content you want to study, and our system will create flashcards based on your input. You can use various prompts to guide the generation process.
               </Typography>
             </CardContent>
           </Card>

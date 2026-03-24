@@ -127,7 +127,7 @@ export default function FlashcardsPage() {
           ) : (
             <>
               <Typography variant="body1">
-                You don't have any pawcard sets yet.
+                You do not have any pawcard sets yet.
               </Typography>
               <Container sx={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
                 <iframe
