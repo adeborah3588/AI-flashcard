@@ -48,7 +48,7 @@ export async function POST(req) {
       { role: "system", content: systemPrompt },
       { role: "user", content: data },
     ],
-    model: "llama3-8b-8192", // Specify the model to use
+    model: "llama-3.3-70b-versatile", // Specify the model to use
     response_format: { type: "json_object" },
   });
 
